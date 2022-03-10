@@ -19,60 +19,39 @@
                   <!-- parent pages--><a class="nav-link dropdown-indicator" href="#dashboard" role="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="dashboard">
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-chart-pie"></span></span><span class="nav-link-text ps-1">Dashboard</span></div>
                   </a>
+                  <!-- Inner page -->
                   <ul class="nav collapse show" id="dashboard">
-                    <li class="nav-item"><a class="nav-link active" href="index.html" data-bs-toggle="" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link active" href="{{route('admin.dashboard')}}" data-bs-toggle="" aria-expanded="false">
                         <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Default</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="dashboard/analytics.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Analytics</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="dashboard/crm.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">CRM</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="dashboard/e-commerce.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">E commerce</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="dashboard/project-management.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Management</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="dashboard/saas.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">SaaS</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
+                      </a>
                   </ul>
+                  <!-- end inner pages-->
                 </li>
+
+
+
                 <li class="nav-item">
                   <!-- label-->
                   <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
-                    <div class="col-auto navbar-vertical-label">App</div>
+                    <div class="col-auto navbar-vertical-label">Actions</div>
                     <div class="col ps-0">
                       <hr class="mb-0 navbar-vertical-divider" />
                     </div>
-                  </div><!-- parent pages--><a class="nav-link" href="app/calendar.html" role="button" data-bs-toggle="" aria-expanded="false">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-calendar-alt"></span></span><span class="nav-link-text ps-1">Calendar</span></div>
-                  </a><!-- parent pages--><a class="nav-link" href="app/chat.html" role="button" data-bs-toggle="" aria-expanded="false">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-comments"></span></span><span class="nav-link-text ps-1">Chat</span></div>
+                  </div>
                   </a><!-- parent pages--><a class="nav-link dropdown-indicator" href="#email" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="email">
-                    <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-envelope-open"></span></span><span class="nav-link-text ps-1">Email</span></div>
+                    <div class="d-flex align-items-center"><span class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 14.062V20h2v-5.938c3.946.492 7 3.858 7 7.938H4a8.001 8.001 0 0 1 7-7.938zM12 13c-3.315 0-6-2.685-6-6s2.685-6 6-6 6 2.685 6 6-2.685 6-6 6z"/></svg></span>
+                    <span class="nav-link-text ps-1">Doctors</span></div>
                   </a>
                   <ul class="nav collapse" id="email">
                     <li class="nav-item"><a class="nav-link" href="app/email/inbox.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Inbox</span></div>
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Add Doctor</span></div>
                       </a><!-- more inner pages-->
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="app/email/email-detail.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Email detail</span></div>
+                    <li class="nav-item"><a class="nav-link" href="{{route('doctor.index')}}" data-bs-toggle="" aria-expanded="false">
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Doctors List</span></div>
                       </a><!-- more inner pages-->
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="app/email/compose.html" data-bs-toggle="" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Compose</span></div>
-                      </a><!-- more inner pages-->
-                    </li>
+          
                   </ul><!-- parent pages--><a class="nav-link dropdown-indicator" href="#events" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="events">
                     <div class="d-flex align-items-center"><span class="nav-link-icon"><span class="fas fa-calendar-day"></span></span><span class="nav-link-text ps-1">Events</span></div>
                   </a>
